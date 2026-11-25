@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Portal</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #f1f5f9;
+      color: #0f172a;
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 36px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+      max-width: 480px;
+      width: 100%;
+    }
+    h1 { font-size: 1.6rem; margin-bottom: 6px; }
+    p { color: #64748b; font-size: 0.95rem; margin-bottom: 24px; }
+    .btn {
+      display: block;
+      text-decoration: none;
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      color: #0f172a;
+      font-weight: 600;
+      transition: 0.2s;
+    }
+    .btn:hover {
+      background: #eff6ff;
+      border-color: #2563eb;
+      color: #2563eb;
+      transform: translateX(4px);
+    }
+    .btn span { display: block; font-weight: 400; font-size: 0.85rem; color: #64748b; margin-top: 3px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Student Portal</h1>
+    <p>Select a document to view.</p>
+
+    <a href="marksheet.html" class="btn">
+      Marksheet →
+      <span>View semester subjects, marks, and grades</span>
+    </a>
+
+    <a href="routine.html" class="btn">
+      Class Routine →
+      <span>View Monday–Friday morning and afternoon schedule</span>
+    </a>
+  </div>
+</body>
+</html>
